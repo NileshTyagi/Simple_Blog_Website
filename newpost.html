@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Simple Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="newpost.html">New Post</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Add New Post</h2>
+        <form id="postForm">
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date"><br>
+            <label for="content">Content:</label><br>
+            <textarea id="content" name="content"></textarea><br>
+            <button type="button" onclick="addPost()">Add Post</button>
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My Simple Blog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

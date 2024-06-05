@@ -1,0 +1,87 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Simple Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <h2><a href="post1.html">Blog Post Title 1</a></h2>
+            <p>Posted on May 29, 2024</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at quam vel nulla elementum faucibus nec in dui. Nam sit amet feugiat turpis.</p>
+        </article>
+        
+        <article>
+            <h2><a href="post2.html">Blog Post Title 2</a></h2>
+            <p>Posted on May 28, 2024</p>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My Simple Blog</p>
+    </footer>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Simple Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="newpost.html">New Post</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="posts">
+        <!-- Existing posts -->
+        <article>
+            <h2><a href="post1.html">Blog Post Title 1</a></h2>
+            <p>Posted on May 29, 2024</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at quam vel nulla elementum faucibus nec in dui. Nam sit amet feugiat turpis.</p>
+            <button onclick="deletePost(this)">Delete</button>
+        </article>
+        
+        <article>
+            <h2><a href="post2.html">Blog Post Title 2</a></h2>
+            <p>Posted on May 28, 2024</p>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button onclick="deletePost(this)">Delete</button>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My Simple Blog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

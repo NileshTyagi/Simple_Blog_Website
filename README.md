@@ -1,1 +1,1 @@
-# Simple_Blog_Website
+# Simple_Blog
